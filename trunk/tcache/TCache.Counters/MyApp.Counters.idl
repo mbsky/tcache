@@ -1,0 +1,18 @@
+// MyAppCounters.idl : IDL source for MyApp.Counters
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (MyAppCounters.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(EA8150D9-E566-48DD-BCD1-9381E63A951D),
+	version(1.0),
+	helpstring("MyAppCounters 1.0 Type Library")
+]
+library MyAppCountersLib
+{
+	importlib("stdole2.tlb");
+};

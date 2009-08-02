@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SecondTraceGen xmlns="http://dblab.usc.edu/2ndTraceGen.xsd">
+	<TraceFile>C:\\traces\\585\\Trace1M\\100K.Save</TraceFile>
+	<!--
+		C:\\traces\\585\\Trace1M\\1MObjs.Save
+		C:\\traces\\585\\Trace1M\\100K.Save
+		C:\\traces\\585\\MySpace\\trace_original.txt
+		C:\\traces\\585\\MySpace\\MySpaceInsert.txt
+	-->
+	<NumThreads>1</NumThreads>
+	<NumEltsPerThread>25000</NumEltsPerThread>
+	<PrefetchSeconds>20</PrefetchSeconds>
+	<NumIterations>1</NumIterations>
+</SecondTraceGen>

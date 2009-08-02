@@ -1,0 +1,9 @@
+; MyApp.Counters.def : Declares the module parameters.
+
+LIBRARY      "MyApp.Counters.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
