@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SecondTraceGen xmlns="http://dblab.usc.edu/2ndTraceGen.xsd">
+	<TraceFile>C:\\jyap\\585\\Trace1M\\Trace1M.100KGet</TraceFile>
+	<!--
+	<TraceFile>C:\\jyap\\585\\Trace99\\Trace99.10KGet</TraceFile>
+	<TraceFile>C:\\jyap\\585\\Trace1M\\Trace1M.100KGet</TraceFile>
+	-->
+	<NumThreads>1</NumThreads>
+	<NumEltsPerThread>20000</NumEltsPerThread>
+	<PrefetchSeconds>50</PrefetchSeconds>
+	<NumIterations>1</NumIterations>
+</SecondTraceGen>

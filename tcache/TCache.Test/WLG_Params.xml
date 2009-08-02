@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkLoadGenerator xmlns="http://dblab.usc.edu/2ndTraceGen.xsd">
+	<TraceFile>C:\\jyap\\585\\Trace1M\\10M101Seed.txt</TraceFile>
+	<!--
+	<TraceFile>C:\\jyap\\585\\MySpace\\trace_original.txt</TraceFile>
+	<TraceFile>C:\\jyap\\585\\Trace99\\Trace99.10KGet</TraceFile>
+	<TraceFile>C:\\jyap\\585\\Trace1M\\Trace1M.100KGet</TraceFile>
+	-->
+	<NumThreads>1</NumThreads>
+	
+	<NumEltsPerThread>20000</NumEltsPerThread>
+	<PrefetchSeconds>50</PrefetchSeconds>
+	<NumIterations>1</NumIterations>
+	
+	<NumPrefetchElements>100000</NumPrefetchElements>
+	<InterarrivalTime>1000</InterarrivalTime>
+	<MinLambda>10</MinLambda>
+	<MaxLambda>50</MaxLambda>
+	<Distribution>uniform</Distribution>
+
+	<SimulationTime>30000</SimulationTime>
+	<ColdStartMultiplier>0.25</ColdStartMultiplier>
+	<TerminationThresholdMultiplier>10</TerminationThresholdMultiplier>
+
+	<OutputFileName>SimTime-1200000</OutputFileName>
+</WorkLoadGenerator>
