@@ -1,0 +1,1 @@
+TCache is a high performance highly scalable high availability eventually consistent key/value cache manager.  It is a library that links directly to your application.  This might be plugged in to your distributed system such as [memcached](http://code.google.com/p/memcached/) and [Dynamo](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html) among others.
